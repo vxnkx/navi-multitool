@@ -1,7 +1,7 @@
 # <p align="center">-_- Lain Multitool</p>
 
 <p align="center">
-  <img width="736" height="690" alt="Lain" src="https://github.com/user-attachments/assets/e1cdd91d-a633-44a8-8351-f34daf4c056f" />
+  <img width="736" height="690" alt="Lain" src="https://github.com/user-attachments/assets/cb7ed791-6507-499b-8bd9-8630b2fd432a" />
 </p>
 
 <p align="center">
