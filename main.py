@@ -108,12 +108,19 @@ def _pre():
 
 def _pop():
     _cfg = get_config()
-    if _cfg.get("auto_open_discord"): # can be disabled in cfg 
+    if _cfg.get("auto_open_discord"):
         time.sleep(3)
         try:
             import webbrowser
-            webbrowser.open(_cfg.get("discord", ""))
-        except: pass
+            _links = _cfg.get("discord", "")
+            
+            if isinstance(_links, list):
+                for link in _links:
+                    webbrowser.open(link)
+            else:
+                webbrowser.open(_links)
+        except:
+            pass
 
 def run_app():
     while 1:
