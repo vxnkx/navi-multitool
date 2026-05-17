@@ -8,7 +8,7 @@
 # Navi Multitool - Developed by x
 # GitHub: https://github.com/vxnkx/navi-multitool
 
-import sys, time, subprocess, json, os, threading, zipfile, io, shutil
+import sys, time, subprocess, json, os, threading, zipfile, io, shutil, webbrowser
 
 def _init():
     try: import pystyle, requests, selenium, dns.resolver, bs4, socks, websocket, piexif, exifread, mutagen, PyQt5
