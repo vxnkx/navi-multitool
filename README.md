@@ -18,6 +18,15 @@
 
 ---
 
+<p align="center">
+  <b>Putting this in virustotal will give you a 20/71 threat score</b>
+  its because of (obviously) the keylogger and ratter/dicordrat so take that however you want.
+  though if you still would like to use this > use it in a linux vm, but make sure to edit pywin32 out of the requirements.txt
+  <b>removing the pywin32 will strip you of some tools though</b> but for the rest of the tools, they are usable.
+</p>
+
+---
+
 ## [] Core Features
 
 ###  Discord Operations
